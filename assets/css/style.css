@@ -1,3 +1,45 @@
+html{
+  margin: 0px 60px 0px 60px;
+}
+
 body{
-    margin: 10px 10px 10px 10px;
+    margin: 40px 40px 40px 40px;
+    background-image: url("https://img.clipartfest.com/0c14b35a8f44a09d55555fae12e925e7_starry-night-background-by-starry-night-clipart-background_1024-768.png");
+    background-size: 2000px 2000px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color:#031028;
+}
+
+li{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+.brand-logo{
+  margin-left: 10px;
+}
+
+.title-img{
+  opacity: 0.5;
+  filter: blur(20px);
+}
+.title-words{
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }

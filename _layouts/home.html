@@ -2,21 +2,33 @@
 layout: default
 ---
 
+<br>
+<div class="card-panel black">
+  <img class="title-img" width="650" src="http://i0.kym-cdn.com/photos/images/newsfeed/000/210/414/Girugamesh01.png?1322724423">
+  <div class="title-words">Isolation Studios <i class="fa fa-gamepad" aria-hidden="true"></i> </div>
+</div>
+
 {% for post in site.posts %}
 
-  <div class="panel panel-default">
+  <br>
+
+  <div class="card-panel cyan lighten-5">
+
     <div class="panel-heading">
-      <h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+      <h4>{{ post.title | escape }}</h4>
     </div>
-    <div class="panel-body">
-      <p>{{post.content}}</p>
-    </div>
+
+    <a class="waves-effect waves-light btn" href="{{ post.url | relative_url }}">Read more</a>
+    <br>
+    <br>
+    <hr>
     <div class="panel-footer">
       Tags:
       {% for tag in post.categories %}
         <a href="#">{{ tag }}</a>
       {% endfor %}
     </div>
+
   </div>
 
 {% endfor %}
