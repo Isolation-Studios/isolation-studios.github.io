@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+    </div>
+    <div class="panel-body">
+      <p>{{post.content}}</p>
+    </div>
+    <div class="panel-footer">
+      Tags:
+      {% for tag in post.categories %}
+        <a href="#">{{ tag }}</a>
+      {% endfor %}
+    </div>
+  </div>
+
+{% endfor %}
