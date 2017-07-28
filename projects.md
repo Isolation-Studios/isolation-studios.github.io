@@ -4,6 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
-We have no projects yet.
+<br>
 
-![temp pic](https://cdn.meme.am/cache/instances/folder321/59038321.jpg)
+### CAC 2017: Title Pending
+
+A point and click adventure in the making involving tedium and color.
+
+Check it out [here](https://github.com/IsolationStudios/CAC-2017)

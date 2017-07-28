@@ -2,11 +2,15 @@
 layout: default
 ---
 
+<div class="card">
+  <div class="card-header">
     <h2>{{ page.title }}</h2>
     <h4><i>{{ page.date | date: "%m/%d/%Y" }}</i></h4>
+  </div>
 
-    <hr>
-
+  <div class="card-text">
     <p>
       {{ content }}
     </p>
+  </div>
+</div>
