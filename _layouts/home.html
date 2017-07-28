@@ -6,30 +6,32 @@ layout: default
 <br>
 <br>
 
-<img src="{{baseurl}}/assets/images/isolationLogo.png" style="display: block; margin: auto;">
+<object data="{{baseurl}}/assets/images/isolation.svg" type="image/svg+xml" class="center-logo">
+  <img src="{{baseurl}}/assets/images/isolationLogo.png">
+</object>
 
+<div class="white-panel">
+  {% for post in site.posts %}
+    <br>
+    <div class="card">
+      <div class="card-header">
+        <h4>{{ post.title | escape }}</h4>
+      </div>
 
-{% for post in site.posts %}
-  <br>
-  <div class="card">
-    <div class="card-header">
-      <h4>{{ post.title | escape }}</h4>
+      <div class="card-text">
+        {{ post.excerpt }}
+
+        <a class="btn btn-info" href="{{ post.url | relative_url }}">Read more</a>
+      </div>
+
+      <div class="card-footer">
+        <span class="text-muted">
+          Tags:
+          {% for tag in post.categories %}
+            <a href="#">{{ tag }}</a>
+          {% endfor %}
+        </span>
+      </div>
     </div>
-
-    <div class="card-text">
-      {{ post.excerpt }}
-
-      <a class="btn btn-primary" href="{{ post.url | relative_url }}">Read more</a>
-    </div>
-
-    <div class="card-footer">
-      <span class="text-muted">
-        Tags:
-        {% for tag in post.categories %}
-          <a href="#">{{ tag }}</a>
-        {% endfor %}
-      </span>
-    </div>
-  </div
-
-{% endfor %}
+  {% endfor %}
+</div>

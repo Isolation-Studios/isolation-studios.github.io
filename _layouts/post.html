@@ -2,7 +2,11 @@
 layout: default
 ---
 
-<div class="card">
+<br>
+<br>
+<br>
+
+<div class="white-panel">
   <div class="card-header">
     <h2>{{ page.title }}</h2>
     <h4><i>{{ page.date | date: "%m/%d/%Y" }}</i></h4>
@@ -13,4 +17,7 @@ layout: default
       {{ content }}
     </p>
   </div>
+
+  {% include comments.html %}
+
 </div>
