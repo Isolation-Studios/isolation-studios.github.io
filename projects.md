@@ -1,10 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title:  "Projects"
 ---
-
-<br>
 
 ### CAC 2017: Title Pending
 

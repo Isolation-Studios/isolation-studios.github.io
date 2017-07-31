@@ -8,12 +8,13 @@ body {
   background-size: 2000px 2000px;
   background-color:#031028;
 }
-a{
+
+.social-link{
   color:inherit;
 }
-a:hover, a:focus {
-    color: inherit;
-    text-decoration: inherit;
+.social-link:hover, .social-link:focus{
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .footer {
