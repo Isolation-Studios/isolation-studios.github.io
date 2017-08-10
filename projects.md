@@ -16,4 +16,4 @@ Check it out [here](https://github.com/IsolationStudios/CAC-2017)
 
 Blog posts and hours of mind-numbing CSS.
 
-Check it out [here](https://github.com/IsolationStudios/CAC-2017)
+Check it out [here](https://github.com/IsolationStudios/isolationstudios.github.io)
