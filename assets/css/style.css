@@ -9,6 +9,10 @@ body {
   background-color:#031028;
 }
 
+img {
+	margin: 10px;
+}
+
 .social-link{
   color:inherit;
 }
