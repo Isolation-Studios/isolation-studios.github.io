@@ -13,7 +13,7 @@ We are still alive and inching along:smile:
 Due to time and resource constraints, the game has switched to a 2D perspective.
 We're hoping to make IGF which is in about two weeks so wish us luck!
 
-Also, working title: **Image There's No Eden**, courtesy of random number generation.
+Also, working title: **Imagine There's No Eden**, courtesy of random number generation.
 
 ### Progress Report
   * Art: waiting for portraits and BG, some concept art
